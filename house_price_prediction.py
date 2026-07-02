@@ -4,7 +4,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import ElasticNet      #works with combination of ridge and lasso
 from sklearn.metrics import(r2_score,mean_absolute_error,mean_squared_error)
 
-df=pd.read_csv(r"C:\vs code\My Domain\pandas\project\house prediction\train.csv")
+df=pd.read_csv("data/train.csv")
 
 #filing nan missing values with none 
 no_feature=[
